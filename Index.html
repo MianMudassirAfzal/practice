@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice JS Functions</title>
+</head>
+<body>
+    
+<!-- <button type="button" onclick="sayHi()" 
+style= "border: 10px solid red;
+    border-radius: 50px;
+justify-content: center;
+position: relative;
+margin-left: 800px;
+margin-top: 50px;
+height: 100px;
+width: 200px;
+font-size: 30px;
+font-weight: bold;"  >Tap me</button> -->
+
+<!-- Simple function  -->
+
+<!-- <script>
+    function sayHi(){
+        alert("Say Hi");
+    }
+</script> -->
+
+
+
+
+<!-- CAlling Function within Function -->
+
+<!-- <button type="button" onclick="sayName()" 
+style= "border: 10px solid red;
+    border-radius: 50px;
+justify-content: center;
+position: relative;
+margin-left: 800px;
+margin-top: 50px;
+height: 100px;
+width: 200px;
+font-size: 30px;
+font-weight: bold;"  >Tap me</button>
+
+
+
+<script>
+
+function sayHi(){
+    alert("Say Hi!")
+}
+
+function sayName(){
+    alert("Say Name!")
+
+    sayHi();
+}
+
+
+
+</script> -->
+
+
+
+<!-- Parameterized Function  -->
+
+<!-- 
+<button type="button" onclick="greeting(name)" 
+style= "border: 10px solid red;
+    border-radius: 50px;
+justify-content: center;
+position: relative;
+margin-left: 800px;
+margin-top: 50px;
+height: 100px;
+width: 200px;
+font-size: 30px;
+font-weight: bold;"  >Tap me</button>
+
+
+
+<script>
+
+
+let name = prompt("Enter your Name: " , "");
+
+function greeting(greet){
+    document.write("Good Morning...." + name)
+}
+
+
+</script> -->
+
+
+
+
+<!-- Return statment  -->
+
+<button type="button" onclick="comparision()" 
+style= "border: 10px solid red;
+    border-radius: 50px;
+justify-content: center;
+position: relative;
+margin-left: 800px;
+margin-top: 50px;
+height: 100px;
+width: 200px;
+font-size: 30px;
+font-weight: bold;" >Tap me</button>
+<p id="text"></p>
+
+
+
+<script>
+
+
+let num1 = +prompt("Enter First Number");
+let num2 = +prompt("Enter Second Number");
+
+
+function comparision(a, b){
+    if (a>b) {
+        text.innerHTML = ("First number is greater then second number");
+    }
+    else{
+        text.innerHTML= ("Second number is greater then first number");
+    }
+    return (num1,num2)
+}
+ 
+//   document.getElementById("text").innerHTML= ;
+
+
+
+
+</script>
+
+<h1>Hi </h1>
+<h1>Hi </h1>
+<h1>Hi </h1>
+<h1>Hi </h1>
+<h1>Hi </h1>
+
+
+
+
+<!-- Practice  -->
+
+<!-- 
+<button type="button" onclick="comparision(num1 , num2)" 
+style= "border: 10px solid red;
+    border-radius: 50px;
+justify-content: center;
+position: relative;
+margin-left: 800px;
+margin-top: 50px;
+height: 100px;
+width: 200px;
+font-size: 30px;
+font-weight: bold;" id="btn" >Tap me</button>
+
+
+<script>
+    
+let num1 = +prompt("Enter First Number:  ");
+let num2 = +prompt("Enter Second Number:  ");
+
+
+function comparision(a,b){
+    if (a>b) {
+
+        document.write("1st number is greater then 2nd");
+    }
+    else{
+        
+        document.write("2nd Number is greater then 1st");
+    }
+
+}
+
+</script> -->
+
+
+</body>
+</html>
